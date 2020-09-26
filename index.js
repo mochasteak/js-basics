@@ -15,7 +15,7 @@ console.log('Person\'s name is: ' + person.name);
 
 let selectedColors = ['red', 'blue', 'green', 'yellow', 'purple'];
 
-console.log(selectedColors.length);
+console.log('Length of selectedColors = ' + selectedColors.length);
 
 function greet(name){
   console.log('Hello ' + name);
@@ -32,3 +32,13 @@ let points = 90;
 let type = points > 100 ? 'gold' : 'silver';
 
 console.log(type);
+
+// swap red and blue
+
+let a = 'red';
+let b = 'blue';
+
+b = a;
+a = 'blue';
+
+console.log(a,b);
