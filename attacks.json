@@ -1,0 +1,81 @@
+[
+  {
+  "name": "Comic Hand",
+  "type": "Common",
+  "class": "S",
+  "energyCost": 1,
+  "damage": 1,
+  "itemsRequired": [{
+      "item": "plunger",
+      "numRequired": 1
+    },
+    {
+      "item": "duck",
+      "numRequired": 1
+    }]
+},
+{
+  "name": "Shrink Ray",
+  "type": "Rare",
+  "class": "S",
+  "energyCost": 3,
+  "damage": 3,
+  "itemsRequired": [{
+      "item": "pliers",
+      "numRequired": 1
+    },
+    {
+      "item": "megaphone",
+      "numRequired": 2
+    }]
+  },
+  {
+    "name": "Rock Monster",
+    "type": "Rare",
+    "class": "S",
+    "energyCost": 2,
+    "damage": 2,
+    "itemsRequired": [{
+        "item": "hydrant",
+        "numRequired": 1
+      },
+      {
+        "item": "binoculars",
+        "numRequired": 1
+      }]
+    },
+  {
+    "name": "Not in Kansas",
+    "type": "Legendary",
+    "class": "S",
+    "energyCost": 4,
+    "damage": 3,
+    "itemsRequired": [{
+        "item": "anvil",
+        "numRequired": 1
+      },
+      {
+        "item": "propeller",
+        "numRequired": 1
+      }]
+    },
+  {
+    "name": "Magnetism",
+    "type": "Common",
+    "class": "M",
+    "energyCost": 2,
+    "damage": 3,
+    "itemsRequired": [{
+        "item": "hydrant",
+        "numRequired": 2
+      },
+      {
+        "item": "anvil",
+        "numRequired": 2
+      },
+      {
+        "item": "binoculars",
+        "numRequired": 1
+      }]
+    },
+]
